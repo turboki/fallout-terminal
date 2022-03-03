@@ -1,0 +1,12 @@
+body {
+  background-color: #282c34;
+  color: #23e92d;
+  margin: 0;
+  font-family: 'Monofonto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Monofonto', sans-serif;
+}

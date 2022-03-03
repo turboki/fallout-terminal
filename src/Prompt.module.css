@@ -1,0 +1,17 @@
+
+
+.prompt { 
+  overflow-wrap: break-all; 
+  word-break: break-all;
+  line-break: anywhere;
+}
+
+.word {
+  color: #00ff0d;
+  font-weight: bold;
+  text-decoration: none;
+}
+.word:focus, .word:hover {
+  color: #333;
+  background-color: #00ff0d;
+}

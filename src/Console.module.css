@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+
+.screen {
+  background: rgb(38, 63, 0);
+  padding: 20px;
+
+}
+
+.terminal {
+  display: grid; 
+  grid-template-columns: 60px 240px 60px 240px 240px; 
+  grid-template-rows: 540px; 
+  gap: 0px 10px; 
+  text-align: left;
+  margin: auto;
+}
+
+.prompt { 
+  overflow-wrap: break-all; 
+  word-break: break-all;
+  line-break: anywhere;
+}
+
+.output { }
+
+.word {
+  color: #00ff0d;
+  font-weight: bold;
+  text-decoration: none;
+}
+.word:focus, .word:hover {
+  color: #333;
+  background-color: #00ff0d;
+}
